@@ -1,0 +1,12 @@
+.navbar-template{
+  transition: all .35s ease;
+  .navbar-brand{
+    transition: all .35s ease;
+    img{
+      height: 100%;
+    }
+  }
+  .navbar-nav{
+    transition: all .35s ease;
+  }
+}

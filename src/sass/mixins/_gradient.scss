@@ -1,0 +1,6 @@
+@mixin linear-gradient($deg,$color1,$color2){
+  background: linear-gradient($deg,$color1,$color2);
+}
+@mixin radial-gradient($color1,$color2){
+  background: radial-gradient($color1,$color2);
+}

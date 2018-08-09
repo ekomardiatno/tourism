@@ -1,0 +1,52 @@
+.btn{
+  transition: all .35s;
+}
+.btn-primary{
+  background: $color-primary;
+  border-color: $dark-primary;
+  &:hover, &:focus{
+    background: $dark-primary;
+    border-color: $darker-primary;
+  }
+}
+.btn-success{
+  background: $color-success;
+  border-color: $dark-success;
+  &:hover, &:focus{
+    background: $dark-success;
+    border-color: $darker-success;
+  }
+}
+.btn-info{
+  background: $color-info;
+  border-color: $dark-info;
+  &:hover, &:focus{
+    background: $dark-info;
+    border-color: $darker-info;
+  }
+}
+.btn-warning{
+  background: $color-warning;
+  border-color: $dark-warning;
+  &:hover, &:focus{
+    background: $dark-warning;
+    border-color: $darker-warning;
+  }
+}
+.btn-danger{
+  background: $color-danger;
+  border-color: $dark-danger;
+  &:hover, &:focus{
+    background: $dark-danger;
+    border-color: $darker-danger;
+  }
+}
+.btn-transparent-white {
+  background: transparent;
+  border-color: $color-white;
+  color: $color-white;
+  &:hover, &:focus{
+    background: $color-white;
+    color: $color-black
+  }
+}

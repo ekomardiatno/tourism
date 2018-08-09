@@ -1,0 +1,95 @@
+.section {
+  padding: 50px 0;
+  .section-title{
+    font-family: 'Pacifico', cursive;
+    position: relative;
+    margin: 15px 0;
+    margin-bottom: 50px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: 400;
+    &::before{
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      width: 100px;
+      left: 50%;
+      margin-left: -50px;
+      height: 2px;
+      background: $color-black;
+      border-radius: 1px;
+    }
+    &::after{
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      left: 50%;
+      margin-left: -7.5px;
+      background: $color-black;
+      border-radius: 10px;
+      bottom: -16.5px;
+      border: 3px solid $color-white;
+    }
+  }
+}
+.section-one{
+  @include linear-gradient(20deg,$dark-primary,$light-info);
+  color: $color-white;
+  .section-title{
+    &::before{
+      background: $color-white;
+    }
+    &::after{
+      background: $color-white;
+      border-color: $color-info;
+    }
+  }
+  .box-section-one{
+    margin-bottom: 15px;
+    .img-box{
+      overflow: hidden;
+      border-radius: 3px;
+      transition: all .35s ease;
+      &:hover{
+        opacity: .5;
+      }
+    }
+    .txt-box{
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center;
+      padding: 15px 0;
+      letter-spacing: 2px;
+      font-size: 17px;
+    }
+  }
+}
+.section-subscribe{
+  padding: 30px 0;
+  @include linear-gradient(45deg,$color-danger,$color-purple);
+  color: #fff;
+  .form-group{
+    margin-bottom: 0;
+    box-shadow: $shadow-xs;
+    .form-control, .btn{
+      padding: 10px 15px;
+      height: auto;
+    }
+    .form-control{
+      background: $dark-transparent;
+      border-color: $transparent;
+      color: $color-white;
+      &::placeholder{
+        color: $light-transparent;
+      }
+      &:focus{
+        border-color: $dark-transparent;
+        box-shadow: none;
+      }
+    }
+  }
+  .subscribe-tagline{
+    margin: 15px 0;
+    font-family: Pacifico,cursive;
+  }
+}

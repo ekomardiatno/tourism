@@ -1,0 +1,235 @@
+.rowTable{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.disTable{
+  position: relative;
+  display: table;
+  width: 100%;
+  .tableCell{
+    vertical-align: middle;
+    padding: 0 15px;
+    &.cell-xs-12 {
+      display: table-cell;
+      width: 100%;
+    }
+    &.cell-xs-11 {
+      display: table-cell;
+      width: 91.66666667%;
+    }
+    &.cell-xs-10 {
+      display: table-cell;
+      width: 83.33333333%;
+    }
+    &.cell-xs-9 {
+      display: table-cell;
+      width: 75%;
+    }
+    &.cell-xs-8 {
+      display: table-cell;
+      width: 66.66666667%;
+    }
+    &.cell-xs-7 {
+      display: table-cell;
+      width: 58.33333333%;
+    }
+    &.cell-xs-6 {
+      display: table-cell;
+      width: 50%;
+    }
+    &.cell-xs-5 {
+      display: table-cell;
+      width: 41.66666667%;
+    }
+    &.cell-xs-4 {
+      display: table-cell;
+      width: 33.33333333%;
+    }
+    &.cell-xs-3 {
+      display: table-cell;
+      width: 25%;
+    }
+    &.cell-xs-2 {
+      display: table-cell;
+      width: 16.66666667%;
+    }
+    &.cell-xs-1 {
+      display: table-cell;
+      width: 8.33333333%;
+    }
+    
+    &.tableCell-top{
+      vertical-align: top;
+    }
+    
+    &.tableCell-bottom{
+      vertical-align: bottom;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  .disTable{
+    .tableCell{
+      &.cell-sm-12 {
+        display: table-cell;
+        width: 100%;
+      }
+      &.cell-sm-11 {
+        display: table-cell;
+        width: 91.66666667%;
+      }
+      &.cell-sm-10 {
+        display: table-cell;
+        width: 83.33333333%;
+      }
+      &.cell-sm-9 {
+        display: table-cell;
+        width: 75%;
+      }
+      &.cell-sm-8 {
+        display: table-cell;
+        width: 66.66666667%;
+      }
+      &.cell-sm-7 {
+        display: table-cell;
+        width: 58.33333333%;
+      }
+      &.cell-sm-6 {
+        display: table-cell;
+        width: 50%;
+      }
+      &.cell-sm-5 {
+        display: table-cell;
+        width: 41.66666667%;
+      }
+      &.cell-sm-4 {
+        display: table-cell;
+        width: 33.33333333%;
+      }
+      &.cell-sm-3 {
+        display: table-cell;
+        width: 25%;
+      }
+      &.cell-sm-2 {
+        display: table-cell;
+        width: 16.66666667%;
+      }
+      &.cell-sm-1 {
+        display: table-cell;
+        width: 8.33333333%;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px){
+  .disTable{
+    .tableCell{
+      &.cell-md-12 {
+        display: table-cell;
+        width: 100%;
+      }
+      &.cell-md-11 {
+        display: table-cell;
+        width: 91.66666667%;
+      }
+      &.cell-md-10 {
+        display: table-cell;
+        width: 83.33333333%;
+      }
+      &.cell-md-9 {
+        display: table-cell;
+        display: table-cell;
+        width: 75%;
+      }
+      &.cell-md-8 {
+        display: table-cell;
+        width: 66.66666667%;
+      }
+      &.cell-md-7 {
+        display: table-cell;
+        width: 58.33333333%;
+      }
+      &.cell-md-6 {
+        display: table-cell;
+        width: 50%;
+      }
+      &.cell-md-5 {
+        display: table-cell;
+        width: 41.66666667%;
+      }
+      &.cell-md-4 {
+        display: table-cell;
+        width: 33.33333333%;
+      }
+      &.cell-md-3 {
+        display: table-cell;
+        width: 25%;
+      }
+      &.cell-md-2 {
+        display: table-cell;
+        width: 16.66666667%;
+      }
+      &.cell-md-1 {
+        display: table-cell;
+        width: 8.33333333%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px){
+  .disTable{
+    .tableCell{
+      &.cell-lg-12 {
+        display: table-cell;
+        width: 100%;
+      }
+      &.cell-lg-11 {
+        display: table-cell;
+        width: 91.66666667%;
+      }
+      &.cell-lg-10 {
+        display: table-cell;
+        width: 83.33333333%;
+      }
+      &.cell-lg-9 {
+        display: table-cell;
+        width: 75%;
+      }
+      &.cell-lg-8 {
+        display: table-cell;
+        width: 66.66666667%;
+      }
+      &.cell-lg-7 {
+        display: table-cell;
+        width: 58.33333333%;
+      }
+      &.cell-lg-6 {
+        display: table-cell;
+        width: 50%;
+      }
+      &.cell-lg-5 {
+        display: table-cell;
+        width: 41.66666667%;
+      }
+      &.cell-lg-4 {
+        display: table-cell;
+        width: 33.33333333%;
+      }
+      &.cell-lg-3 {
+        display: table-cell;
+        width: 25%;
+      }
+      &.cell-lg-2 {
+        display: table-cell;
+        width: 16.66666667%;
+      }
+      &.cell-lg-1 {
+        display: table-cell;
+        width: 8.33333333%;
+      }
+    }
+  }
+}

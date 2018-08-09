@@ -1,0 +1,39 @@
+@import "core/theme-variables";
+
+@media(min-width:992px){
+  .navbar-template{
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 25px 0;
+    .navbar-brand{
+      padding: 0 15px;
+      height: 70px;
+    }
+    .navbar-nav {
+      background: $color-white;
+      border-radius: 25px;
+      overflow: hidden;
+      box-shadow: $shadow-sm;
+      margin: 10px 0;
+      li{
+        a{
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+    }
+    &.affix{
+      background: $color-white;
+      padding: 0;
+      .navbar-brand{
+        padding: 10px 15px;
+      }
+      .navbar-nav{
+        background: $transparent;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}

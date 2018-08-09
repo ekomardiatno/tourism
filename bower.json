@@ -1,0 +1,26 @@
+{
+  "name": "tourism",
+  "description": "template and theme by eko mardiatno",
+  "main": "index.js",
+  "authors": [
+    "Eko Mardiatno"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "template",
+    "theme",
+    "ui",
+    "ux",
+    "web",
+    "designer"
+  ],
+  "homepage": "https://github.com/ekomardiatno/tourism",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+}

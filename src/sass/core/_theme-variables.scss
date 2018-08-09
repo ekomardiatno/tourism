@@ -1,0 +1,64 @@
+$color-white: #f5f6fa;
+$dark-white: darken($color-white, 5%) !default;
+$darker-white: darken($color-white, 15%) !default;
+$light-white: lighten($color-white, 1.5%) !default;
+$lighter-white: lighten($color-white, 3%) !default;
+
+$color-black: #222f3e;
+$light-black: lighten($color-black, 5%) !default;
+$lighter-black: lighten($color-black, 15%) !default;
+$dark-black: darken($color-black, 5%) !default;
+$darker-black: darken($color-black, 15%) !default;
+
+$color-purple: #8e44ad;
+$dark-purple: darken($color-purple, 5%) !default;
+$darker-purple: darken($color-purple, 15%) !default;
+$light-purple: lighten($color-purple, 5%) !default;
+$lighter-purple: lighten($color-purple, 15%) !default;
+
+$color-pink: #e84393;
+$dark-pink: darken($color-pink, 5%) !default;
+$darker-pink: darken($color-pink, 15%) !default;
+$light-pink: lighten($color-pink, 5%) !default;
+$lighter-pink: lighten($color-pink, 15%) !default;
+
+$color-primary: #2e86de;
+$dark-primary: darken($color-primary, 5%) !default;
+$darker-primary: darken($color-primary, 15%) !default;
+$light-primary: lighten($color-primary, 5%) !default;
+$lighter-primary: lighten($color-primary, 15%) !default;
+
+$color-info: #0abde3;
+$dark-info: darken($color-info, 5%) !default;
+$darker-info: darken($color-info, 15%) !default;
+$light-info: lighten($color-info, 5%) !default;
+$lighter-info: lighten($color-info, 15%) !default;
+
+$color-success: #10ac84;
+$dark-success: darken($color-success, 5%) !default;
+$darker-success: darken($color-success, 15%) !default;
+$light-success: lighten($color-success, 5%) !default;
+$lighter-success: lighten($color-success, 15%) !default;
+
+$color-warning: #ff9f43;
+$dark-warning: darken($color-warning, 5%) !default;
+$darker-warning: darken($color-warning, 15%) !default;
+$light-warning: lighten($color-warning, 5%) !default;
+$lighter-warning: lighten($color-warning, 15%) !default;
+
+$color-danger: #ee5253;
+$dark-danger: darken($color-danger, 5%) !default;
+$darker-danger: darken($color-danger, 15%) !default;
+$light-danger: lighten($color-danger, 5%) !default;
+$lighter-danger: lighten($color-danger, 15%) !default;
+
+$transparent: transparent;
+$dark-transparent: rgba(0,0,0,.2);
+$darker-transparent: rgba(0,0,0,.5);
+$light-transparent: rgba(255,255,255,.2);
+$lighter-transparent: rgba(255,255,255,.5);
+
+$shadow-xs: 1px 2px 4px rgba(0,0,0,.2);
+$shadow-sm: 1px 2px 5px rgba(0,0,0,.3);
+$shadow-md: 2px 4px 10px rgba(0,0,0,.3);
+$shadow-lg: 3px 6px 15px rgba(0,0,0,.3);
