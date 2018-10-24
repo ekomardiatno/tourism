@@ -5,3 +5,8 @@ body{
   line-height: 1.15;
   color: $color-black;
 }
+a {
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}

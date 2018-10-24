@@ -1,0 +1,38 @@
+.footer {
+	.social-footer {
+		text-align: center;
+		border-top: 1px solid $darker-white;
+		border-bottom: 1px solid $darker-white;
+
+		ul{
+			@include clear();
+			list-style: none;
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+			margin-bottom: -4px;
+			li {
+				float: left;
+				a {
+					display: inline-block;
+					padding: 10px 30px;
+					color: $color-black;
+					font-size: 15px;
+					border-left: 1px solid $darker-white;
+				}
+				&:last-child {
+					a {
+						border-right: 1px solid $darker-white;
+					}
+				}
+
+				&:hover {
+					background: $dark-white;
+				}
+			}
+		}
+	}
+	.credit {
+		padding: 15px 0;
+	}
+}
